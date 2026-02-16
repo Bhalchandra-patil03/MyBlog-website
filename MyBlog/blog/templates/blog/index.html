@@ -1,16 +1,16 @@
 
 {% extends "base.html" %}
 {% load static %}
-{% block title  %}My Blog{% endblock  %}
+{% block title%}My Blog{% endblock  %}
 {% block css_files %}
-    <link rel="stylesheet" href="{% static "blog/index.css" %}">
-    <link rel="stylesheet" href="{% static "blog/post.css" %}">
+    <link rel="stylesheet" href="{% static 'blog/index.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/post.css' %}">
 {% endblock  %}
 
 {% block content %}
     <section id ="welcome">
         <header >
-            <img src="{% static "blog/images/phot.jpg" %}" alt="Bhalchandra - The Author of this Blog">
+            <img src="{% static 'blog/images/phot.jpg' %}" alt="Bhalchandra - The Author of this Blog">
             <div>
                 <h2>Bhalchandra's Blog</h2>
                 <p>Hi, I am Bhalchandra and I love to blog about tech and the world!</p>
